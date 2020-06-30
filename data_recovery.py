@@ -162,8 +162,6 @@ def main():
     print(f"[+] The backup is located at {backup_path}")
     size_in_gigs = str(((target_size / 1024) / 1024) / 1024)
     print(f"[+] The total size of the backup is {size_in_gigs} GB")
-    print("\n[+] Don't forget to put in your notes and call the customer...")
-    print("\n[+] Special Thanks to Adam Scanga")
 
 
 if __name__ == "__main__":
